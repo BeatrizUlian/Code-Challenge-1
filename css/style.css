@@ -1,0 +1,41 @@
+#main {
+text-align: center;
+}
+
+h1{
+    color: #161616;
+}
+
+input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid rgb(232, 48, 48);
+    padding: 8px;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+    width: 130px;
+}
+
+input::placeholder {
+font-style:italic;
+font-size: 14px;
+}
+
+button{
+    font-size: 14px;
+    color: rgb(232, 48, 48);
+    border:none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;    
+}
+
+button:hover{
+    cursor:grab;
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
