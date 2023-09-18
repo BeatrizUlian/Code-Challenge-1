@@ -11,3 +11,9 @@ function ageCheckOntario() {
 
 var btn = document.getElementById("submitBtn");
 btn.onclick = ageCheckOntario;
+//adicionar codigo para evitar que a pessoa submita characteres e numeros quebrados
+
+
+// check if the input is a number
+
+// if (!isNAaN(age) { age = parseInt(age);})
